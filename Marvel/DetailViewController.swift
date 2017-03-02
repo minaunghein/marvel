@@ -12,7 +12,7 @@ class DetailViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        print("PRINT NOW By Force")
         // Do any additional setup after loading the view.
     }
 
