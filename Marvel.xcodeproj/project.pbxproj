@@ -12,6 +12,10 @@
 		EAD9062F1E67D0A000DDD1B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAD9062D1E67D0A000DDD1B3 /* Main.storyboard */; };
 		EAD906311E67D0A000DDD1B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAD906301E67D0A000DDD1B3 /* Assets.xcassets */; };
 		EAD906341E67D0A000DDD1B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAD906321E67D0A000DDD1B3 /* LaunchScreen.storyboard */; };
+		EAD9063D1E67D84500DDD1B3 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD9063B1E67D84500DDD1B3 /* DetailViewController.swift */; };
+		EAD9063E1E67D84500DDD1B3 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAD9063C1E67D84500DDD1B3 /* DetailViewController.xib */; };
+		EAD906411E67D85200DDD1B3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD9063F1E67D85200DDD1B3 /* HomeViewController.swift */; };
+		EAD906421E67D85200DDD1B3 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAD906401E67D85200DDD1B3 /* HomeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		EAD906301E67D0A000DDD1B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EAD906331E67D0A000DDD1B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EAD906351E67D0A000DDD1B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAD9063B1E67D84500DDD1B3 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		EAD9063C1E67D84500DDD1B3 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		EAD9063F1E67D85200DDD1B3 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		EAD906401E67D85200DDD1B3 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +65,10 @@
 				EAD906291E67D0A000DDD1B3 /* AppDelegate.swift */,
 				EAD9062B1E67D0A000DDD1B3 /* ViewController.swift */,
 				EAD9062D1E67D0A000DDD1B3 /* Main.storyboard */,
+				EAD9063F1E67D85200DDD1B3 /* HomeViewController.swift */,
+				EAD906401E67D85200DDD1B3 /* HomeViewController.xib */,
+				EAD9063B1E67D84500DDD1B3 /* DetailViewController.swift */,
+				EAD9063C1E67D84500DDD1B3 /* DetailViewController.xib */,
 				EAD906301E67D0A000DDD1B3 /* Assets.xcassets */,
 				EAD906321E67D0A000DDD1B3 /* LaunchScreen.storyboard */,
 				EAD906351E67D0A000DDD1B3 /* Info.plist */,
@@ -126,7 +138,9 @@
 			files = (
 				EAD906341E67D0A000DDD1B3 /* LaunchScreen.storyboard in Resources */,
 				EAD906311E67D0A000DDD1B3 /* Assets.xcassets in Resources */,
+				EAD906421E67D85200DDD1B3 /* HomeViewController.xib in Resources */,
 				EAD9062F1E67D0A000DDD1B3 /* Main.storyboard in Resources */,
+				EAD9063E1E67D84500DDD1B3 /* DetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +151,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAD9063D1E67D84500DDD1B3 /* DetailViewController.swift in Sources */,
 				EAD9062C1E67D0A000DDD1B3 /* ViewController.swift in Sources */,
 				EAD9062A1E67D0A000DDD1B3 /* AppDelegate.swift in Sources */,
+				EAD906411E67D85200DDD1B3 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
