@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A2058901E67DD8C00A24506 /* Trident_II_missile_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3A20588F1E67DD8C00A24506 /* Trident_II_missile_image.jpg */; };
 		EAD9062A1E67D0A000DDD1B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD906291E67D0A000DDD1B3 /* AppDelegate.swift */; };
 		EAD9062C1E67D0A000DDD1B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD9062B1E67D0A000DDD1B3 /* ViewController.swift */; };
 		EAD9062F1E67D0A000DDD1B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAD9062D1E67D0A000DDD1B3 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A20588F1E67DD8C00A24506 /* Trident_II_missile_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Trident_II_missile_image.jpg; sourceTree = "<group>"; };
 		EAD906261E67D0A000DDD1B3 /* Marvel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Marvel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAD906291E67D0A000DDD1B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EAD9062B1E67D0A000DDD1B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 				EAD906291E67D0A000DDD1B3 /* AppDelegate.swift */,
 				EAD9062B1E67D0A000DDD1B3 /* ViewController.swift */,
 				EAD9062D1E67D0A000DDD1B3 /* Main.storyboard */,
+				3A20588F1E67DD8C00A24506 /* Trident_II_missile_image.jpg */,
 				EAD9063F1E67D85200DDD1B3 /* HomeViewController.swift */,
 				EAD906401E67D85200DDD1B3 /* HomeViewController.xib */,
 				EAD9063B1E67D84500DDD1B3 /* DetailViewController.swift */,
@@ -141,6 +144,7 @@
 				EAD906421E67D85200DDD1B3 /* HomeViewController.xib in Resources */,
 				EAD9062F1E67D0A000DDD1B3 /* Main.storyboard in Resources */,
 				EAD9063E1E67D84500DDD1B3 /* DetailViewController.xib in Resources */,
+				3A2058901E67DD8C00A24506 /* Trident_II_missile_image.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,6 +322,7 @@
 				EAD9063A1E67D0A000DDD1B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
